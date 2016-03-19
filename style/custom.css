@@ -3,16 +3,18 @@
 	padding: 0;
 }
 
+body {
+	background: #ededed;;
+}
+
 h1,h2,h3,h4,h5,h6,p {
 	margin: 0;
 	padding: 0;
 }
 
 .main {
-	
-	margin:10px auto;
 	width: 960px;
-
+	margin:10px auto;
 }
 
 .header {
@@ -21,12 +23,14 @@ h1,h2,h3,h4,h5,h6,p {
 	border-top: 4px solid darkred;
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;	
+	margin-bottom: 15px;
 }
 
-.content {
+.midSection {
 	width: 100%;
 	height: 1500px;
-	background :red;
+	background :#FFFFFF;
+	padding: 10px 0 0 0;
 }
 
 .footer {
@@ -34,7 +38,6 @@ h1,h2,h3,h4,h5,h6,p {
 	height: 50px;
 	background: blue;
 }
-
 
 /**************************************************/
 
@@ -48,17 +51,12 @@ h1,h2,h3,h4,h5,h6,p {
 	margin-top: 6%;
 	float: left;
 	border:1px solid darkgray;
-	
-
-	
 }
 .searchBox input[type="search"]{
-	
 	padding: 10px 133px 5px 10px;
 	border:none;
 	float: left;
 	border-right:1px solid gray;
-
 }
 .buttonK{
 	background-color: #FDCB58;
@@ -80,21 +78,17 @@ h1,h2,h3,h4,h5,h6,p {
 	background-color: #272727;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
-
 }
 .navbarm li{
 	color: white;
 	list-style-type: none;
 	text-align: center;
-	
 }
 .navbarm div{
 	width: 13%;
 	height: 38px;
-	
 	line-height: 40px;
 	border-right: 2px solid black; 
-	
 	float:left;
 }
 .navbarm div:hover{
@@ -117,25 +111,97 @@ h1,h2,h3,h4,h5,h6,p {
 background: #2391C1;
 color: white;
 }
+
 .ri{
 background: #4F6A9B;
 color: white;
 }
+
 .topbt {
 	margin-top: 10px;
 	float: right;
-
 }
+
 .middt{
 	width: 29px;
 	height: 29px;
 	background-color: #FDC351;
 }
+
 p{
 	margin-left: -7px;
 }
 
+/*********Middle Section STARTS HERE**********/
 
+.st-pull-left {
+	float: left;
+}
 
+.st-pull-right {
+	float: right;
+}
 
+.st-content {
+	width: 620px;
+	margin-left: 10px;
+	/*background: red;*/
+	height: inherit;
+}
 
+.st-greyBox {
+	border-radius: 5px 5px 0 0;
+    padding: 10px 10px 0;
+    margin: 0 0 10px;
+    background: linear-gradient(to bottom, rgba(239,239,239,1) 0%,rgba(250,250,250,0.55) 45%,rgba(250,250,250,0) 100%);
+}
+
+.st-main-header {
+	padding: 0 0 0 35px;
+	font: bold 12px/15px Arial, Helvetica, sans-serif;
+    color: #4e4d4d;
+    margin: 5px 0 10px 3px;
+    /*position: relative;*/
+}
+
+.st-sideBar {
+	width: 300px;
+	margin-right: 10px;
+	/*background: blue;*/
+	height: inherit;
+}
+
+.st-banner {
+	margin: 0 0 20px 0;
+}
+
+.st-likeBox{
+    margin: 0 0 20px;
+    padding: 4px 0 6px 9px;
+    border: 1px solid #FDBE4D;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+}
+
+.st-boxWrapper {
+	/*display: inline-block;*/
+    height: 226px;
+    width: 278px;
+    overflow: hidden;   
+}
+
+.st-list-box {
+	background-color: #f8f8f8;
+    border-top: 3px solid #202222;
+    margin: 0 0 20px 0;
+}
+
+.st-list-header {
+	background-color: #202222;
+    display: inline-block;
+    padding: 5px 7px;
+    color: #FFF;
+    font: bold 11px Arial, Helvetica, sans-serif;
+    margin-bottom: 0.5em;
+}
+/*********Middle Section ENDS HERE**********/
