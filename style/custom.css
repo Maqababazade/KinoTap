@@ -184,7 +184,6 @@ p{
 }
 
 .st-boxWrapper {
-	/*display: inline-block;*/
     height: 226px;
     width: 278px;
     overflow: hidden;   
@@ -204,4 +203,123 @@ p{
     font: bold 11px Arial, Helvetica, sans-serif;
     margin-bottom: 0.5em;
 }
+
+.st-topList {
+	margin: 10px 20px;
+	padding-bottom:10px;
+}
+
+.st-movie {
+	overflow: auto;
+	list-style-type: none;
+    background: white;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.st-movie:hover {
+	border-bottom: 1px solid #fdbe4d;
+}
+.st-movie:hover .st-listImg {
+	width: 50px;
+	height: 50px;
+	float: left;
+	background:grey;
+}
+
+.st-movPlace {
+	display: none;
+}
+
+.st-movie:hover .st-movPlace {
+	display: inline-block;
+	color: white;
+	font-size: 25px;
+}
+
+.st-listImg {
+	width: 50px;
+	height: 50px;
+	float: left;
+	background: url("http://kinotap.com/media/profile/movies/1023/top/poster15252131.jpg");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.st-listTitle {
+	display: inline-block;
+	margin: 10px 0 0 10px;
+}
+
+.st-listTitle a {
+	color: #454545;;
+	font: bold 14px Arial, Helvetica, sans-serif;
+}
+
+.st-rating {
+	display: block;
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.st-news-box {
+    border-top: 3px solid #202222;
+    margin: 0 0 20px 0;
+    overflow: auto;
+}
+
+.st-newsList {
+	margin: 10px 0;
+	padding-bottom:10px;
+}
+
+.st-newsSide {
+	overflow: auto;
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+.st-newsBoxImg {
+	float: left;
+	width: 85px;
+	height: 59px;
+	background: red;
+	margin-right: 10px;
+}
+
+.st-newsSideContent {
+	float: right;
+	width: 205px;
+	height: auto;
+}
+
+.st-newsSideContent span {
+	display: block;
+}
+.st-newsSideDate {
+	color: #989898;
+    font-size: 14px;
+    margin: 0 0 2px;
+}
+
+.st-newsSideTitle {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+    text-decoration: underline;
+    color: #000;
+    font-size: 12px;
+}
+
+.st-newsSidePrev {
+	font: 11px Tahoma, Geneva, sans-serif;
+    color: #000;
+    margin: 3px 0 0;
+}
+
+
+
+
+
+
 /*********Middle Section ENDS HERE**********/
