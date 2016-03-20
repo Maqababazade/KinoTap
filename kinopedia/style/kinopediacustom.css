@@ -1,0 +1,363 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #ededed;;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	width: 960px;
+	margin: 30px auto;
+}
+
+.header {
+	height:136px;
+	margin-bottom: 20px;
+	border-top: 4px solid darkred;
+	border-radius: 5px;
+	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, .5);
+}
+
+.midSection {
+	width: 100%;
+	height: 1500px;
+	background :#FFFFFF;
+	padding: 10px 0 0 0;
+}
+
+.footer {
+	width: 100%;
+	height: 50px;
+	background: blue;
+}
+
+/**************************************************/
+.htop{
+	width: 100%;
+	height: 93px;
+	background: linear-gradient(to bottom, #eeb649 0%,#ff9900 100%);
+	
+}
+.img img{
+	margin-top: 8%;
+}
+.searchBoxlilk{
+	width: 95.096%;
+	height: 36px;
+	background: white;
+	margin-top: 6%;
+	float: left;
+	border:1px solid darkgray;
+}
+.searchBox input[type="search"]{
+	padding: 10px 133px 5px 10px;
+	border:none;
+	float: left;
+	border-right:1px solid gray;
+}
+.buttonK{
+	background: linear-gradient(to bottom, #eeb649 0%,#ff9900 100%);
+	color: #975C25;
+	border:1px solid #975C25;
+	float: left;
+	margin-top: .5px;
+	margin-left: .5px;
+}
+.buttonK:hover{
+background: linear-gradient(to bottom, #eeb649 0%,#ff9900 100%);
+}
+.searchBox select{
+	padding: 8.8px 33px;
+	border:none;
+	float: left;
+	border-right:1px solid gray;
+}
+.navbarm{
+	border-top:1px dotted darkgray;	 
+	height: 40px;
+	background-color: #272727;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-bottom: 20px;
+}
+.navbarm li{
+	color: white;
+	list-style-type: none;
+	text-align: center;
+}
+.navbarm div{
+	width: 13%;
+	height: 38px;
+	line-height: 40px;
+	border-right: 2px solid black; 
+	float:left;
+}
+.navbarm div:hover{
+	height: 43px;
+	background-color: #161616;
+	border-bottom:4px solid darkred;
+	border-radius: 2px;
+}
+.leff{
+	width: 66px;
+	height: 31px;
+	background-color: #FDC351;
+	color: black;
+}
+.midd{
+	width: 33px;
+	height: 31px;
+}
+.mi{
+background: #2391C1;
+color: white;
+}
+
+.ri{
+background: #4F6A9B;
+color: white;
+}
+
+.topbt {
+	margin-top: 10px;
+	float: right;
+}
+
+.middt{
+	width: 29px;
+	height: 29px;
+	background-color: #FDC351;
+}
+
+p{
+	margin-left: -7px;
+}
+
+/*********Middle Section STARTS HERE**********/
+
+.st-pull-left {
+	float: left;
+}
+
+.st-pull-right {
+	float: right;
+}
+
+.st-content {
+	width: 620px;
+	margin-left: 10px;
+	/*background: red;*/
+	height: inherit;
+}
+
+.st-greyBox {
+	border-radius: 5px 5px 0 0;
+    padding: 10px 10px 0;
+    margin: 0 0 10px;
+    background: linear-gradient(to bottom, rgba(239,239,239,1) 0%,rgba(250,250,250,0.55) 45%,rgba(250,250,250,0) 100%);
+}
+
+.st-main-header {
+	padding: 0 0 0 35px;
+	font: bold 12px/15px Arial, Helvetica, sans-serif;
+    color: #4e4d4d;
+    margin: 5px 0 10px 3px;
+}
+z{
+	margin-left: 10px;	
+}
+.hs-year-select{
+	float: left;
+}
+.hs-filters{
+		width:auto;
+		height:30px;
+		background-color: #EFEFEF;
+		border-radius: 5px;
+		padding-top: 5px;
+	}
+.hs-filters	li{
+		float:left;
+		list-style-type:none;
+		margin-right:4px;
+		font: 11px/22px Tahoma, Geneva, sans-serif;
+	}
+.hs-filters z{
+		margin-right:10px ;
+		float:left;
+
+	}
+.hs-filters	select{
+		float:left;
+		margin-right:10px;
+	}
+.hs-abc{
+	float: right;
+}
+
+.st-sideBar {
+	width: 300px;
+	margin-right: 10px;
+	/*background: blue;*/
+	height: inherit;
+}
+
+.st-banner {
+	margin: 0 0 20px 0;
+}
+
+.st-likeBox{
+    margin: 0 0 20px;
+    padding: 4px 0 6px 9px;
+    border: 1px solid #FDBE4D;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+}
+
+.st-boxWrapper {
+    height: 226px;
+    width: 278px;
+    overflow: hidden;   
+}
+
+.st-list-box {
+	background-color: #f8f8f8;
+    border-top: 3px solid #202222;
+    margin: 0 0 20px 0;
+}
+
+.st-list-header {
+	background-color: #202222;
+    display: inline-block;
+    padding: 5px 7px;
+    color: #FFF;
+    font: bold 11px Arial, Helvetica, sans-serif;
+    margin-bottom: 0.5em;
+}
+
+.st-topList {
+	margin: 10px 20px;
+	padding-bottom:10px;
+}
+
+.st-movie {
+	overflow: auto;
+	list-style-type: none;
+    background: white;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.st-movie:hover {
+	border-bottom: 1px solid #fdbe4d;
+}
+.st-movie:hover .st-listImg {
+	width: 50px;
+	height: 50px;
+	float: left;
+	background:grey;
+}
+
+.st-movPlace {
+	display: none;
+}
+
+.st-movie:hover .st-movPlace {
+	display: inline-block;
+	color: white;
+	font-size: 25px;
+}
+
+.st-listImg {
+	width: 50px;
+	height: 50px;
+	float: left;
+	background: url("http://kinotap.com/media/profile/movies/1023/top/poster15252131.jpg");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.st-listTitle {
+	display: inline-block;
+	margin: 10px 0 0 10px;
+}
+
+.st-listTitle a {
+	color: #454545;;
+	font: bold 14px Arial, Helvetica, sans-serif;
+}
+
+.st-rating {
+	display: block;
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.st-news-box {
+    border-top: 3px solid #202222;
+    margin: 0 0 20px 0;
+    overflow: auto;
+}
+
+.st-newsList {
+	margin: 10px 0;
+	padding-bottom:10px;
+}
+
+.st-newsSide {
+	overflow: auto;
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+.st-newsBoxImg {
+	float: left;
+	width: 85px;
+	height: 59px;
+	background: red;
+	margin-right: 10px;
+}
+
+.st-newsSideContent {
+	float: right;
+	width: 205px;
+	height: auto;
+}
+
+.st-newsSideContent span {
+	display: block;
+}
+.st-newsSideDate {
+	color: #989898;
+    font-size: 14px;
+    margin: 0 0 2px;
+}
+
+.st-newsSideTitle {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+    text-decoration: underline;
+    color: #000;
+    font-size: 12px;
+}
+
+.st-newsSidePrev {
+	font: 11px Tahoma, Geneva, sans-serif;
+    color: #000;
+    margin: 3px 0 0;
+}
+
+
+
+
+
+
+/*********Middle Section ENDS HERE**********/
