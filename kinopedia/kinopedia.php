@@ -77,65 +77,176 @@
 	</div>
 
 <!-- Middle Section Starts HERE -->
+<!-- 85 filters
+	141 Main content -->
 <div class="midSection">
 
 	<div class="st-content st-pull-left">
 		<div>
-			<p class="st-main-header"><img src="../img/Icons/Kinopedia.png"/> <z>Kinopedia</z></p>
+<!-- filters starts-->
+				<p class="st-main-header">
+					<img src="../img/Icons/Kinopedia.png"/> <z>Kinopedia</z>
+				</p>
 			<div class="hs-filters">
-<form >
-								<z>il</z><select class="hs-year-select">
-					<option> 2017</option>
-					<option>2016</option>
-					<option>2015</option>
-					<option>2014</option>
-					<option>2013</option>
-					<option>2012</option>
-					<option>2011</option>
-					<option>2010</option>
-					<option>2009</option>
-					<option>2008</option>
-				</select>
-			</form>
-			<div class="hs-abc">
-			    <li><a href="#">Hamısı</a></li>
-			    <li><a href="#">0-9</a></li>
-			    <li><a href="#">A</a></li>
-			    <li><a href="#">B</a></li>
-			    <li><a href="#">C</a></li>
-			    <li><a href="#">Ç</a></li>
-			    <li><a href="#">D</a></li>
-			    <li><a href="#">E</a></li>
-			    <li><a href="#">Ə</a></li>
-			    <li><a href="#">F</a></li>
-			    <li><a href="#">G</a></li>
-			    <li><a href="#">H</a></li>
-			    <li><a href="#">X</a></li>
-			    <li><a href="#">İ</a></li>
-			    <li><a href="#">J</a></li>
-			    <li><a href="#">K</a></li>
-			    <li><a href="#">Q</a></li>
-			    <li><a href="#">L</a></li>
-			    <li><a href="#">M</a></li>
-			    <li><a href="#">N</a></li>
-			    <li><a href="#">O</a></li>
-			    <li><a href="#">Ö</a></li>
-			    <li><a href="#">P</a></li>
-			    <li><a href="#">R</a></li>
-			    <li><a href="#">S</a></li>
-			    <li><a href="#">Ş</a></li>
-			    <li><a href="#">T</a></li>
-			    <li><a href="#">U</a></li>
-			    <li><a href="#">Ü</a></li>
-			    <li><a href="#">V</a></li>
-			    <li><a href="#">Y</a></li>
-			    <li><a href="#">Z</a></li>
-			    </div>
-</div>
+				<form >
+  				<z>il</z>
+  					<select class="hs-year-select">
+						<option> 2017</option>
+						<option>2016</option>
+						<option>2015</option>
+						<option>2014</option>
+						<option>2013</option>
+						<option>2012</option>
+						<option>2011</option>
+						<option>2010</option>
+						<option>2009</option>
+						<option>2008</option>
+					</select>
+				</form>
+				<div class="hs-abc">
+				    <li><a href="#">Hamısı</a></li>
+				    <li><a href="#">0-9</a></li>
+				    <li><a href="#">A</a></li>
+				    <li><a href="#">B</a></li>
+				    <li><a href="#">C</a></li>
+				    <li><a href="#">Ç</a></li>
+				    <li><a href="#">D</a></li>
+				    <li><a href="#">E</a></li>
+				    <li><a href="#">Ə</a></li>
+				    <li><a href="#">F</a></li>
+				    <li><a href="#">G</a></li>
+				    <li><a href="#">H</a></li>
+				    <li><a href="#">X</a></li>
+				    <li><a href="#">İ</a></li>
+				    <li><a href="#">J</a></li>
+				    <li><a href="#">K</a></li>
+				    <li><a href="#">Q</a></li>
+				    <li><a href="#">L</a></li>
+				    <li><a href="#">M</a></li>
+				    <li><a href="#">N</a></li>
+				    <li><a href="#">O</a></li>
+				    <li><a href="#">Ö</a></li>
+				    <li><a href="#">P</a></li>
+				    <li><a href="#">R</a></li>
+				    <li><a href="#">S</a></li>
+				    <li><a href="#">Ş</a></li>
+				    <li><a href="#">T</a></li>
+				    <li><a href="#">U</a></li>
+				    <li><a href="#">Ü</a></li>
+				    <li><a href="#">V</a></li>
+				    <li><a href="#">Y</a></li>
+				    <li><a href="#">Z</a></li>
+				</div>
+			</div>
 			
 		</div>
-		<div class="st-greyBox">
-			<h1 class="st-main-header"><a href="#"></a></h1>
+<!-- filters ends -->
+<!--main content  -->
+		<div class="hs-contentBox">
+<!-- first row -->
+			<div class="hs-row">
+<!-- left side content -->
+				<div class="hs-leftsid">
+					<div class="hs-lft">
+<!-- left side of left side content -->
+						<div class="hs-img">
+							<img src="../img/Movies/poster3.jpg">
+						</div>
+						<div class="hs-button">
+							<form>
+								<input type="submit" value="Treylerə bax">
+								<input type="submit" value="Siyahıya artır">
+							</form>
+						</div>
+					</div>
+<!-- right side of left content -->
+					<div class="hs-rgt">
+						<div class="hs-conttop">
+							<h5>Batman Superman-a qarşı: Ədalət Şəfəgində</h5>
+							<p>
+								<span>
+									Müddət: 160 dəq.
+								</span>
+								<span>
+									Janr: <a href="#">Macəra</a>,<a href="#">Döyüş</a>
+								</span>
+								<p>
+									Supermenin hərəkətlərinin cavabsız qaldığınnan qorxub, heç kim tərəfindən idarə edilməyən y.. <a href="#">davamı</a> »
+								</p>
+							</p>
+						</div>
+
+						<div class="hs-contbot">
+						
+							<span>IMDB xal:0</span>
+							<span>KinoFuck xal:0</span>
+
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+
+
+						</div>	
+					</div>
+				</div>
+				<div class="hs-leftsid">
+					<div class="hs-lft">
+<!-- left side of right side content -->
+						<div class="hs-img">
+							<img src="../img/Movies/poster6.jpg">
+						</div>
+						<div class="hs-button">
+							<form>
+								<input type="submit" value="Treylerə bax">
+								<input type="submit" value="Siyahıya artır">
+							</form>
+						</div>
+					</div>
+<!-- right side of right content -->
+					<div class="hs-rgt">
+						<div class="hs-conttop">
+							<h5>Batman Superman-a qarşı: Ədalət Şəfəgində</h5>
+							<p>
+								<span>
+									Müddət: 160 dəq.
+								</span>
+								<span>
+									Janr: <a href="#">Macəra</a>,<a href="#">Döyüş</a>
+								</span>
+								<p>
+									Supermenin hərəkətlərinin cavabsız qaldığınnan qorxub, heç kim tərəfindən idarə edilməyən y.. <a href="#">davamı</a> »
+								</p>
+							</p>
+						</div>
+
+						<div class="hs-contbot">
+						
+							<span>IMDB xal:0</span>
+							<span>KinoFuck xal:0</span>
+
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+
+
+						</div>	
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	
