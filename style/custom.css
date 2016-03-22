@@ -142,6 +142,139 @@ p{
 
 /*********Middle Section STARTS HERE**********/
 
+.st-innerContent {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    background: #ffffff;
+    margin: 0 0 10px 0;
+    overflow: auto;
+}
+
+.st-posters {
+	width: 278px;
+	height: 260px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.st-moviePoster {
+	width: 80px;
+	height: 120px;
+	background: blue;
+	margin: 5px;
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .5);
+}
+
+.st-moviePoster img {
+	width: 80px;
+	height: 120px;
+}
+
+.st-movieBadge {
+	width: 290px;
+	height: 261px;
+	padding: 5px 0 0 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.st-badgeLeft {
+	width: 155px;
+	height: 251px;
+	padding: 2px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+.st-badgeTitle {
+	font: bold 16px Arial, Helvetica, sans-serif;
+    color: #870004;
+}
+
+.st-badgeTime {
+	display: block;
+	font: 10px Tahoma, Geneva, sans-serif;
+    color: #9c9c9c;
+    margin: 0 0 10px;
+}
+
+.st-badgeDesc{
+	font-size: 10px;
+	display: block;
+	margin-bottom: 5px;
+}
+.st-badgeDesc a {
+	color: black;
+	text-decoration: underline;
+}
+
+.st-badgeRight {
+	width: 125px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.st-badgeImg {
+	width: 125px;
+    height: 185px;
+}
+
+.st-badgeImg img {
+	width: 125px;
+    height: 185px;
+}
+
+.st-badgeButtons {
+	width: 125px;
+}
+
+.st-badgeTrailer {
+	display: block;
+    margin: 0 0 5px;
+    text-align: center;
+    font: bold 11px Arial, Helvetica, sans-serif;
+
+    border-color: #cccccc;
+    color: #6c6c6c;
+    box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, .5), inset 0px -1px 1px 0px rgba(255, 255, 255, .5), 0px 1px 1px 0px rgba(0, 0, 0, .75);
+    background: linear-gradient(to bottom, rgba(238,238,238,1) 0%,rgba(187,187,187,1) 100%);
+    padding: 5px 14px 6px;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    border-radius: 4px;
+}
+
+.st-badgeTrailer:hover {
+	color: #6c6c6c;
+	text-decoration: none;
+}
+
+.st-badgeList {
+	display: block;
+    margin: 0 0 5px;
+    text-align: center;
+    font: bold 11px Arial, Helvetica, sans-serif;
+
+    border-color: #d7922d;
+    color: #975c25;
+    box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, .5), 0 1px 2px 0px rgba(152, 155, 157, .5);
+    background: linear-gradient(to bottom, #fdd661 0%,#fdbd4c 100%);
+    padding: 5px 14px 6px;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    border-radius: 4px;
+}
+.st-badgeList:hover {
+	color: #975c25;
+	text-decoration: none;
+}
+
+
+
+/*********Side Bar Starts Here****************/
+
 .st-pull-left {
 	float: left;
 }
@@ -324,10 +457,6 @@ p{
     color: #000;
     margin: 3px 0 0;
 }
-
-
-
-
-
+/*********Side Bar Ends Here****************/
 
 /*********Middle Section ENDS HERE**********/
