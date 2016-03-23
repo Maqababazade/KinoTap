@@ -8,7 +8,7 @@
 
 .leftContent {
 	width: 620px;
-	min-height: 2000px;
+    overflow: auto;
 	margin-left: 10px;
 }
 

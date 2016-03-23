@@ -65,12 +65,12 @@
 			<!--   -->
 				<div class="col-md-12 navbarm">
 					
-					    <div><li>ANA SEHIFE</li></div>
+					    <div><li><a href="">ANA SEHIFE</a></li></div>
 					    <div><li>SEANSLAR</li></div>
 					    <div><li>TEZLIKLE</li></div>
-					    <div><li>KINOPEDIA</li></div>
+					    <div><li><a href="kinopedia/kinopedia.php">KINOPEDIA</a></li></div>
 					    <div><li>KINOTEATRLAR</li></div>
-					    <div><li>XEBERLER</li></div>
+					    <div><li><a href="news/news.php">XEBERLER</a></li></div>
 					
 				</div>
 			<!--   -->
