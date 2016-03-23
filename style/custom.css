@@ -142,6 +142,86 @@ p{
 
 /*********Middle Section STARTS HERE**********/
 
+/****In The Cinema Section Starts Here****/
+.st-cinemaHead {
+	display: flex;
+	align-items: center;
+}
+
+.st-mainMovies {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.st-mainPoster {
+    width: 170px;
+    border: 1px solid #000;
+    border-bottom: 3px solid #ff6600;
+    margin: 10px;
+    position: relative;
+    /*-webkit-transition: all 0.4s;*/
+    /*box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .5);*/
+   /*-webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 1);*/
+}
+
+.st-mainImg img {
+	width: 168px;
+    height: 235px;
+}
+
+.st-mainPlay {
+	background: white;
+	color: black;
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	position: absolute;
+	left: 133px;
+	top: 205px;
+}
+
+.st-mainTri {
+	color: white;
+	position: absolute;
+	left: 145px;
+	top: 227px;
+}
+
+.st-mainTitle {
+	padding: 5px;
+    border-top: 1px solid #000;
+    color: #FFF;
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, .3);
+    background: linear-gradient(to bottom, #444444 0%,#222222 100%);
+}
+
+.st-mainTitle a {
+	color: white;
+}
+
+.st-mainTitle a:last-child {
+	text-decoration: underline;
+}
+
+.st-mainSlider {
+	background-color: #f2f2f2;
+	border-radius: 5px;
+    padding: 15px 10px 10px;
+    margin: 30px 10px 10px;
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, .75), 0px 1px 1px 0px rgba(0, 0, 0, .65);
+}
+
+.st-mainSliderWrap {
+	width: 538px;
+    overflow: hidden;
+    padding-left: 4px;
+    height: 125px;
+}
+
+
+/****In The Cinema Section Ends Here****/
+
 .st-innerContent {
     border-radius: 5px;
     padding: 10px;
@@ -298,11 +378,10 @@ p{
 }
 
 .st-main-header {
-	padding: 0 0 0 35px;
+	/*padding: 0 0 0 35px;*/
 	font: bold 12px/15px Arial, Helvetica, sans-serif;
     color: #4e4d4d;
     margin: 5px 0 10px 3px;
-    /*position: relative;*/
 }
 
 .st-sideBar {
