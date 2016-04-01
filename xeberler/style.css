@@ -1,0 +1,50 @@
+.all {
+	width: 620px;
+	height: 662px;
+	border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    background: #FFFFFF;
+    margin: 0 0 10px;
+}
+.picture {
+	float: left;
+}
+.picture img {
+ 	width: 312px;
+	height: 223px;
+	vertical-align: middle;
+
+	float: left;
+    margin: 0 10px 10px 0;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    padding: 5px;
+}
+.tt {
+  	
+}
+.tt a {
+    font: 20px/28px Arial,Helvetica,sans-serif;
+	text-decoration: none;
+	color: black;
+
+
+}
+.date {
+	font-family: Arial, Helvetica, sans-serif;	
+	color: #787A7B;
+    display: block;
+    font-size: 11px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+.text {
+	font: 13px/1.5em Tahoma, sans-serif;
+	     
+	    display: block;
+	    color: #333937;
+}
+.qirmizi {
+	color: #870004;
+}
